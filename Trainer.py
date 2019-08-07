@@ -5,8 +5,13 @@ import ray
 ray.init(object_store_memory=100 * 1000000,
          redis_max_memory=100 * 1000000)
 
+#Reference: https://github.com/minimaxir/gpt-2-keyword-generation/tree/master/example 
+#OR
+#https://github.com/minimaxir/gpt-2-keyword-generation/blob/master/keyword_encode.py (Line 25)
+#for options for below function
+
 encode_keywords(csv_path='example/output.csv',#path to input csv file
-                out_path='example/encodedStories.txt',#path for output file
+                out_path='example/encodedStories.txt',#path for output file (must be .txt)
                 title_field='storytitle',#column name for title column (optional)
                 body_field='Story',#column name for column with large amount of text depending on title field(optional)
                 keyword_gen='Story'#column name from which text keywords should be generated
