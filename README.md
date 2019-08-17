@@ -9,4 +9,4 @@ I have created a Colab Notebook for training the GPT-2 model along with instruct
 
 This is part of what I was working on during the second half of my time at the USC Interaction Lab for the USC Robotics and Autonomous Systems REU 2019.
 
-Based on @minimaxir's fantastic work.
+Based on @minimaxir's fantastic work. (Checkout his repo for more details)
